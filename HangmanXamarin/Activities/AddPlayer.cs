@@ -20,7 +20,7 @@ namespace HangmanXamarin.Activities
             save.Click += Save_Click;
         }
 
-        //There is text create new Player object and add to database, else prompt user to enter a name.
+        //There is text create a new Player object and add to database, else prompt user to enter a name.
         private void Save_Click(object sender, EventArgs e)
         {
             if (input.Text != "")
