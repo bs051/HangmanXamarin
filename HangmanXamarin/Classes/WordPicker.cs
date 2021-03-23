@@ -14,6 +14,7 @@ namespace HangmanXamarin
         }
 
         //Call this method to get a random word from the list.
+        //code 
         public string GetRandomWord()
         {
             int randomIndex = new Random().Next(Wordlist.Count);
