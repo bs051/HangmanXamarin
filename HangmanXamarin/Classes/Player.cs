@@ -12,7 +12,7 @@ namespace HangmanXamarin.Classes
         public int HighScore { get; set; }
 
 
-        //ToString override to help display player names on spinner without making a custom adapter.
+        //ToString a override to help display player names on spinner without making a custom adapter.
         public override string ToString()
         {
             return this.Name;
